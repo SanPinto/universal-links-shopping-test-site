@@ -14,16 +14,11 @@
       "delegate_permission/common.handle_all_urls": {
         "dynamic_app_link_components": [
           {
-            "/": "/bras",
+            "/": "/bras*",
             "exclude": true
           },
           {
-            "/": "/bras/",
-            "exclude": true
-          },
-          {
-            "/": "/bras/*",
-            "exclude": true
+            "/": "/account*"
           }
         ]
       }
