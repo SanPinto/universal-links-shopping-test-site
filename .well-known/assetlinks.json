@@ -17,6 +17,11 @@
             "/": "/bras*",
             "exclude": true
           },
+             {
+            "/": "/shopping-bag*",
+            "exclude": true
+          },
+          
           {
             "/": "/*"
           }
