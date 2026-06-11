@@ -21,6 +21,10 @@
             "/": "/shopping-bag*",
             "exclude": true
           },
+              {
+            "/": "/account*",
+            "exclude": true
+          },
           
           {
             "/": "/*"
