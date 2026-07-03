@@ -13,10 +13,10 @@
     "relation_extensions": {
       "delegate_permission/common.handle_all_urls": {
         "dynamic_app_link_components": [
-    {
+          {
             "/": "/gift-cards*",
             "?": {
-              "isWeb": "true"
+              "$web_only": "true"
             },
             "exclude": true
           },
@@ -31,6 +31,9 @@
           {
             "/": "/account*",
             "exclude": true
+          },
+          {
+            "/": "/*"
           }
         ]
       }
