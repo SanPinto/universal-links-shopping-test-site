@@ -16,7 +16,7 @@
           {
             "/": "/gift-cards*",
             "?": {
-              "$web_only": "true"
+              "$web_only": "?*"
             },
             "exclude": true
           },
